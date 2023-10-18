@@ -34,3 +34,10 @@ opt.clipboard:append("unnamedplus")
 -- split windows
 opt.splitright = true
 opt.splitbelow = true
+
+-- remove ugly tildes
+opt.fillchars = {eob = " "}
+
+-- hyphens are part of word
+opt.iskeyword:append("-")
+
