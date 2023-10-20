@@ -17,14 +17,6 @@ nvimtree.setup({
   },
   renderer = {
     group_empty = true,
-    icons = {
-      show = {
-        file = false,
-        folder = true,
-        folder_arrow = true,
-        git = false,
-      },
-    },
   },
   actions = {
     open_file = {

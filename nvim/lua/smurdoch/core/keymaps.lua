@@ -46,3 +46,10 @@ keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>")
 
 -- nvim-tree
 keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
+
+-- telescope
+keymap.set("n", "<Leader>ff", "<cmd>Telescope find_files<CR>")
+keymap.set("n", "<Leader>fs", "<cmd>Telescope live_grep<CR>")
+keymap.set("n", "<Leader>fc", "<cmd>Telescope grep_string<CR>")
+keymap.set("n", "<Leader>fb", "<cmd>Telescope buffers<CR>")
+keymap.set("n", "<Leader>fh", "<cmd>Telescope help_tags<CR>")
